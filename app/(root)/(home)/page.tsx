@@ -1,4 +1,4 @@
-import Cart from "@/components/cart/cart";
+import Footer from "@/components/footer/Footer";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -70,8 +70,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* section 3 */}
- 
+        {/* section 3 */} 
         <div className=" w-full flex-row items-center justify-center pt-5 space-y-10 gap">
             <div className=" text-center space-y-5">
               <p className=" text-red-800 underline font-medium">TYPE OF WASTE</p>
@@ -152,7 +151,9 @@ export default function Home() {
 
             {/* section 5 */}
 
-            <Cart/>
+            
+            {/* Footer */}
+            <Footer/>
         </div>
     </div>
   )

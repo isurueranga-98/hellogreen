@@ -1,0 +1,77 @@
+import Image from 'next/image'
+import Link from 'next/link'
+import React from 'react'
+
+const Footer = () => {
+  return (
+    <div className=' w-full   bg-black flex flex-col items-center justify-center'>
+            
+        <div className=' lg:flex lg:py-10 lg:gap-36'>
+
+            <div className='flex items-center justify-center'>
+                <Image src='Logo.svg' width={250} height={250} alt='home'/>
+            </div>
+
+            <div className=' flex-col space-y-4'>
+                <p className=' text-white font-medium text-lg'>About</p>
+                <p className=' lg:w-[370px] text-gray-300 leading-8'>Hello Green" is an innovative web platform dedicated to addressing the pressing issue of non-biodegradable waste management.</p>
+
+                <div className=' flex gap-3'>
+                    <Link href=''><Image src='/assets/icons/Twitter.svg' width={60} height={60} alt='twitter'/></Link>
+                    <Link href=''><Image src='/assets/icons/facebook.svg' width={60} height={60} alt='facebook'/></Link>
+                    <Link href=''><Image src='/assets/icons/instagram.svg' width={60} height={60} alt='instagram'/></Link>
+                    <Link href=''><Image src='/assets/icons/priterrest.svg' width={60} height={60} alt='priterrest'/></Link>
+                </div>
+            </div>
+
+            <div className=' flex-col space-y-4'>
+                <p className=' text-white font-medium text-lg'>Links</p>
+
+                <div className=' flex-row space-y-6'>
+                    <Link href=''><p className='text-gray-300'>Request Pickup</p></Link>
+                    <Link href=''><p className='text-gray-300'>Request Buy</p></Link>
+                    <Link href=''><p className='text-gray-300'>About Usp</p></Link>
+                    <Link href=''><p className='text-gray-300'>Articles</p></Link>
+                    <Link href=''><p className='text-gray-300'>Contact</p></Link>
+                </div>
+            </div>
+
+            <div className=' flex-col space-y-4'>
+                <p className=' text-white font-medium text-lg'>Our Services</p>
+
+                <div className=' flex-row space-y-6'>
+                    <Link href=''><p className='text-gray-300'>Waste Pickups</p></Link>
+                    <Link href=''><p className='text-gray-300'>Waste Solutions</p></Link>
+                    <Link href=''><p className='text-gray-300'>Roll-off Services</p></Link>
+                    <Link href=''><p className='text-gray-300'>24/7 Support</p></Link>
+                    
+                </div>
+            </div>
+
+            <div className=' flex-col space-y-4'>
+                <p className=' text-white font-medium text-lg'>Contact Us</p>
+
+                <div className=' flex-row space-y-3'>
+                    <Link href='' className=' flex gap-3'><Image src='/assets/icons/Phone.svg' width={20} height={20} alt='phone'/><p className='text-gray-300'>+94 76 260 5 123</p></Link>
+                    <Link href='' className=' flex gap-3'><Image src='/assets/icons/email.svg' width={20} height={20} alt='phone'/><p className='text-gray-300'>hellogreen@hello.com</p></Link>
+                    <Link href='' className=' flex gap-3'><Image src='/assets/icons/location.svg' width={20} height={20} alt='phone'/><p className='text-gray-300'>No: 91, Berker Street, London</p></Link>
+                    
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div>
+
+            <p>Copyright © 2022 Hello Green All Rights Reserved.</p>
+
+        </div>
+
+
+    </div>
+  )
+}
+
+export default Footer
