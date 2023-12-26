@@ -64,7 +64,7 @@ const Navbar = () => {
                 </div>
                 
                 <div  className=' flex'>
-                    <Link href='/' className='bg-green-500 w-40 py-5 h-full flex items-center justify-center'>Request for Buy</Link>
+                    <Link href='/ask' className='bg-green-500 w-40 py-5 h-full flex items-center justify-center'>Request for Buy</Link>
                     <Link href='/' className=' bg-[#13404F] w-40 py-5 h-full flex items-center justify-center'>Request for PickUp</Link>
                 </div>
                 

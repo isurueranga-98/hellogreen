@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
  
+.cl-internal-b3fm6y {
+  display: none !important;
+  /* background: linear-gradient(129deg, #ff7000 0%, #e2995f 100%); */
+}
+
+.cl-internal-wkkub3{
+  display: none !important;
+}
 /* @layer base {
   :root {
     --background: 0 0% 100%;
