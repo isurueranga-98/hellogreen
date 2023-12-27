@@ -18,7 +18,7 @@ const spaceGrotest = Space_Grotesk({
 
 export const metadata : Metadata = {
   title : 'Hello Green',
-  description : 'Non Bio waste buying and selling platform',
+  description : 'Hello Green" is an innovative web platform dedicated to addressing the pressing issue of non-biodegradable waste management.',
   icons : {
     icon : '../public/Logo.svg'
   }
