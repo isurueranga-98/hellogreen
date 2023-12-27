@@ -1,3 +1,4 @@
+import Cart from "@/components/cart/Cart";
 import Footer from "@/components/footer/Footer";
 import Image from "next/image";
 import Link from "next/link";
@@ -234,9 +235,11 @@ export default function Home() {
         </div>
       </div>
 
+      <Cart/>
+
       {/* section 5 */}
 
-      <div className="py-10 px-10 flex flex-col-reverse gap-5 items-center justify-center lg:flex-row  lg:items-start">
+      <div className=" py-10 px-10 flex flex-col-reverse gap-5 items-center justify-center lg:flex-row  lg:items-start">
         <div>
           <Image
             src="/assets/images/img1.png"
@@ -248,7 +251,7 @@ export default function Home() {
 
         <div className=" space-y-3">
           <div className="text-center lg:text-left lg:space-y-5">
-            <p className=" font-medium ">Get to Know About Us</p>
+          <p className=" text-red-800 underline font-medium">GET TO KNOW ABOUT US</p>
             <p className=" text-3xl font-bold lg:w-[500px]">We’re Leader in Waste Management Services</p>
             <p className="lg:w-[500px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
           </div>
@@ -281,6 +284,7 @@ export default function Home() {
         </div>
       </div>
       {/* Footer */}
+      
       <Footer />
     </div>
   );

@@ -8,15 +8,15 @@ const Footer = () => {
             
         <div className=' lg:flex lg:py-10 lg: px-10 lg:gap-24 flex-row space-y-10'>
 
-            <div className='flex items-center justify-center lg:hidden xl:block'>
-                <Image src='Logo.svg' width={250} height={250} alt='home'/>
+            <div className='flex items-center justify-center xl:items-center xl:justify-center xl:flex lg:hidden'>
+                <Image src='Logo.svg' width={200} height={200} alt='home'/>
             </div>
 
             <div className=' flex-col space-y-4 flex items-center justify-center lg:justify-start lg:items-start'>
                 <p className=' text-white font-medium text-lg'>About</p>
                 <p className=' lg:w-[300px] text-gray-300 leading-8 w-[300px] sm:w-[500px] text-center lg:text-left'>Hello Green" is an innovative web platform dedicated to addressing the pressing issue of non-biodegradable waste management.</p>
 
-                <div className=' flex gap-3 lg:w-[250px]'>
+                <div className=' flex gap-3 w-[200px]'>
                     <Link href=''><Image src='/assets/icons/Twitter.svg' width={60} height={60} alt='twitter'/></Link>
                     <Link href=''><Image src='/assets/icons/facebook.svg' width={60} height={60} alt='facebook'/></Link>
                     <Link href=''><Image src='/assets/icons/instagram.svg' width={60} height={60} alt='instagram'/></Link>

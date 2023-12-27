@@ -4,9 +4,6 @@ import {
   Sheet,
   SheetClose,
   SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import Image from "next/image";
@@ -64,8 +61,8 @@ const MobileNav = () => {
                 <NavContent/>
 
                 <div  className=' pt-20 flex flex-col items-center justify-center space-y-3'>
-                    <Link href='/' className='bg-green-500 w-80 py-5 h-full flex items-center justify-center text-white rounded-lg font-semibold'>Request for Buy</Link>
-                    <Link href='/' className=' bg-[#13404F] w-80 py-5 h-full flex items-center justify-center text-white rounded-lg font-semibold '>Request for PickUp</Link>
+                    <Link href='/' className='bg-green-500 w-[270px] sm:w-[350px] py-5 h-full flex items-center justify-center text-white rounded-lg font-semibold '>Request for Buy</Link>
+                    <Link href='/' className=' bg-[#13404F] w-[270px] sm:w-[350px] py-5 h-full flex items-center justify-center text-white rounded-lg font-semibold '>Request for PickUp</Link>
                 </div>
                 </>
             </SheetClose>

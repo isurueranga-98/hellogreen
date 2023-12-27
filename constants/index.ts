@@ -8,7 +8,7 @@ export const sidebarLinks: SidebarLink[] = [
     },
     {
       imgURL: "/assets/icons/users.svg",
-      route: "/articles",
+      route: "/articels",
       label: "Articles",
     },
     {
@@ -23,3 +23,38 @@ export const sidebarLinks: SidebarLink[] = [
     },
     
   ];
+
+// constants/index.ts
+export const articles = [
+  {
+    id: 1,
+    img: '/assets/images/HeroIMG.png',
+    title: "Recurring Waste Services",
+    description: "Wastey is a single-bin recycling service that returns more of your discarded items to the environment .Wastey is a single-bin recycling service that returns more of your discarded items to the environment",
+  },
+  {
+    id: 2,
+    img: '/assets/images/HeroIMG.png',
+    title: "Recurring Waste Services",
+    description: "Wastey is a single-bin recycling service that returns more of your discarded items to the environment. Wastey is a single-bin recycling service that returns more of your discarded items to the environment",
+  },
+  {
+    id: 2,
+    img: '/assets/images/HeroIMG.png',
+    title: "Recurring Waste Services",
+    description: "Wastey is a single-bin recycling service that returns more of your discarded items to the environment. Wastey is a single-bin recycling service that returns more of your discarded items to the environment",
+  },
+  {
+    id: 2,
+    img: '/assets/images/HeroIMG.png',
+    title: "Recurring Waste Services",
+    description: "Wastey is a single-bin recycling service that returns more of your discarded items to the environment. Wastey is a single-bin recycling service that returns more of your discarded items to the environment",
+  },
+  {
+    id: 2,
+    img: '/assets/images/HeroIMG.png',
+    title: "Recurring Waste Services",
+    description: "Wastey is a single-bin recycling service that returns more of your discarded items to the environment. Wastey is a single-bin recycling service that returns more of your discarded items to the environment",
+  },
+  
+];
