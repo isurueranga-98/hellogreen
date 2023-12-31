@@ -11,16 +11,16 @@ export const sidebarLinks: SidebarLink[] = [
       route: "/articels",
       label: "Articles",
     },
-    {
-      imgURL: "/assets/icons/star.svg",
-      route: "/aboutus",
-      label: "About Us",
-    },
-    {
-      imgURL: "/assets/icons/suitcase.svg",
-      route: "/contactus",
-      label: "Contact Us",
-    },
+    // {
+    //   imgURL: "/assets/icons/star.svg",
+    //   route: "/about",
+    //   label: "About Us",
+    // },
+    // {
+    //   imgURL: "/assets/icons/suitcase.svg",
+    //   route: "/contactus",
+    //   label: "Contact Us",
+    // },
     
   ];
 

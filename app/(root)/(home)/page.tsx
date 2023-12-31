@@ -235,7 +235,11 @@ export default function Home() {
         </div>
       </div>
 
-      <Cart/>
+      <div>
+
+        <Cart/>
+        <Link href='articels' className=" justify-center items-center flex pt-8 font-semibold text-lg underline">Read more Articles</Link>
+      </div>
 
       {/* section 5 */}
 
